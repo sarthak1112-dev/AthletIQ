@@ -451,7 +451,7 @@ const server = http.createServer(async (req, res) => {
   // ========================================================
   // STATIC FILE SERVING
   // ========================================================
-  let filePath = pathname === '/' ? 'AthletIQ.html' : pathname.replace(/^\//, '');
+  let filePath = pathname === '/' ? 'index.html' : pathname.replace(/^\//, '');
   filePath = decodeURIComponent(filePath);
   const fullPath = path.join(__dirname, filePath);
 

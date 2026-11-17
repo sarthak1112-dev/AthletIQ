@@ -1,6 +1,9 @@
 {
   "name": "athletiq",
   "version": "1.0.0",
+  "engines": {
+  "node": ">=22.5.0"
+  },
   "description": "AthletIQ - The Sports Networking App",
   "main": "server.js",
   "scripts": {
